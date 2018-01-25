@@ -11,7 +11,7 @@ $(document).ready(function() {
 function initializePage() {
 	$("#testjs").click(function(e) {
 		$('.jumbotron h1').text("This is the result");
-		$("#testjs").toggleClass("Please wait...");
+		$("#testjs").text("Please wait...");
 		$(".jumbotron p").toggleClass("active");
 	});
 
